@@ -57,17 +57,20 @@
     <div class="main flex flex-col justify-center items-start gap-16">
       <div class="first_item flex flex-col justify-center items-start gap-10">
         <div class="first_item_texts flex flex-col justify-start items-start gap-6">
-          <h2
-            class="text-neutral-verydark tracking-tighter leading-6 font-semibold text-4xl whitespace-pre-wrap break-words">
+          <h2 class="text-neutral-verydark tracking-tighter leading-12 font-semibold text-4xl ">
             Read together,<br>grow together
           </h2>
-          <ul>
-            <li><img src="/assets/images/icon-check.svg" alt="icon-check">Monthly curated tech reads selected by
+          <ul class="flex flex-col justify-center items-start gap-4">
+            <li class="flex gap-6 items-center justify-center font-Inter font-normal text-xl text-neutral-dark"><img
+                src="/assets/images/icon-check.svg" alt="icon-check">Monthly curated tech reads selected by
               industry experts </li>
-            <li><img src="/assets/images/icon-check.svg" alt="icon-check">Virtual and in-person meetups for deep-dive
+            <li class="flex gap-6 items-center justify-center font-Inter font-normal text-xl text-neutral-dark"><img
+                src="/assets/images/icon-check.svg" alt="icon-check">Virtual and in-person meetups for deep-dive
               discussions </li>
-            <li><img src="/assets/images/icon-check.svg" alt="icon-check">Early access to new tech book releases </li>
-            <li><img src="/assets/images/icon-check.svg" alt="icon-check">Author Q&A sessions with tech thought leaders
+            <li class="flex gap-6 items-center justify-center font-Inter font-normal text-xl text-neutral-dark"><img
+                src="/assets/images/icon-check.svg" alt="icon-check">Early access to new tech book releases </li>
+            <li class="flex gap-6 items-center justify-center font-Inter font-normal text-xl text-neutral-dark"><img
+                src="/assets/images/icon-check.svg" alt="icon-check">Author Q&A sessions with tech thought leaders
             </li>
           </ul>
         </div>
@@ -75,27 +78,28 @@
           <source srcset="/assets/images/image-read-together-desktop.webp" media="(min-width: 1200px)">
           <source srcset="/assets/images/image-read-together-tablet.webp" media="(min-width: 768px)">
           <source srcset="/assets/images/image-read-together-mobile.webp" media="(max-width: 767px)">
-          <img src="/assets/images/image-read-together-mobile.webp" alt="image-read-together">
+          <img class="rounded" src="/assets/images/image-read-together-mobile.webp" alt="image-read-together">
         </picture>
       </div>
 
-      <div class="second_item">
-        <div>
-          <picture>
-            <source srcset="/assets/images/image-not-average-desktop.webp" media="(min-width: 1200px)">
-            <source srcset="/assets/images/image-not-average-tabet.webp" media="(min-width: 768px)">
-            <source srcset="/assets/images/image-not-average-mobile.webp" media="(max-width: 767px)">
-            <img src="/assets/images/image-not-average-mobile.webp" alt="image-not-average-">
-          </picture>
-          <img class="hidden" src="/assets/images/logos-tech.svg" alt="logos-tech">
-        </div>
-        <div class="second_item_note">
-          <h2>Not your average book club</h2>
-          <p>
+      <div class="second_item flex flex-col justify-center items-start gap-10">
+        <div class="second_item_note flex flex-col justify-start items-start gap-6">
+          <h2
+            class="text-neutral-verydark tracking-tighter leading-12 font-semibold text-4xl bg-patternCircle bg-no-repeat bg-left-bottom bg-25% ">
+            Not your <br> average book <br> club </h2>
+          <p class="font-normal font-Inter text-xl tracking-tight">
             Connect with a community that speaks your language - from Python to TypeScript and
             everything in between. Our discussions blend technical depth with practical applications.
           </p>
         </div>
+        <picture>
+          <source srcset="/assets/images/image-not-average-desktop.webp" media="(min-width: 1200px)">
+          <source srcset="/assets/images/image-not-average-tabet.webp" media="(min-width: 768px)">
+          <source srcset="/assets/images/image-not-average-mobile.webp" media="(max-width: 767px)">
+          <img src="/assets/images/image-not-average-mobile.webp" alt="image-not-average-">
+        </picture>
+        <img class="hidden" src="/assets/images/logos-tech.svg" alt="logos-tech">
+
       </div>
       <div class="tech_journey hidden">
         <h1>Your tech reading journey

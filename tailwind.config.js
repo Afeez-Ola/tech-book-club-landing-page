@@ -7,6 +7,9 @@ module.exports = {
       Inter: ["Inter", "sans-serif"],
       Martian: ["Martian Mono", "monospace"]
     },
+    backgroundSize: {
+      "25%": "50%"
+    },
     colors: {
       neutral: {
         verydark: "#062630",
@@ -29,6 +32,7 @@ module.exports = {
       dark: "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
       light: "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
       glow: "url('./assets/images/pattern-glow.svg')",
+      patternCircle: "url('/assets/images/pattern-circle.png')"
 
     }
   },
