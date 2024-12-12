@@ -562,12 +562,20 @@ video {
   visibility: collapse;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
 }
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -618,8 +626,16 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -638,6 +654,10 @@ video {
 
 .font-Martian {
   font-family: Martian Mono, monospace;
+}
+
+.font-Inter {
+  font-family: Inter, sans-serif;
 }
 
 .text-xl {
@@ -665,12 +685,30 @@ video {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.text-neutral-dark {
+  --tw-text-opacity: 1;
+  color: rgb(56 81 89 / var(--tw-text-opacity, 1));
 }
 
 .underline {
