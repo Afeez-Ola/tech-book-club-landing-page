@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["/index.html", "/css", "/assets"],
+  content: ["./index.html", "/css", "/assets"],
   theme: {
     extend: {},
     fontFamily: {
@@ -24,7 +24,7 @@ module.exports = {
       dark: "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
       light: "linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)",
       glow: "url('./assets/images/pattern-glow.svg')",
-      
+
     }
   },
   plugins: [],
