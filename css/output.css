@@ -622,6 +622,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -639,6 +643,11 @@ video {
   border-color: rgb(6 38 48 / var(--tw-border-opacity, 1));
 }
 
+.border-neutral-light {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 245 243 / var(--tw-border-opacity, 1));
+}
+
 .bg-patternCircle {
   background-image: url('/assets/images/pattern-circle.png');
 }
@@ -653,6 +662,10 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .py-4 {
@@ -690,6 +703,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
