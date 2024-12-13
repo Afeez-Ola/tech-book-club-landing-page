@@ -574,6 +574,14 @@ video {
   display: none;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -710,6 +718,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -742,6 +755,16 @@ video {
 .text-neutral-verydark {
   --tw-text-opacity: 1;
   color: rgb(6 38 48 / var(--tw-text-opacity, 1));
+}
+
+.text-neutral-default {
+  --tw-text-opacity: 1;
+  color: rgb(230 225 223 / var(--tw-text-opacity, 1));
+}
+
+.text-neutral-light {
+  --tw-text-opacity: 1;
+  color: rgb(250 245 243 / var(--tw-text-opacity, 1));
 }
 
 .hero-gradient {
