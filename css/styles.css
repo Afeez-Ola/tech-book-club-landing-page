@@ -12,4 +12,7 @@
     background-clip: text;
     color: transparent;
   }
+  .word-spacing {
+    word-spacing: 7px;
+  }
 }

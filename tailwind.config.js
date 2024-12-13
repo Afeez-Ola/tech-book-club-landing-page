@@ -3,12 +3,16 @@ module.exports = {
   content: ["./index.html", "/css", "/assets"],
   theme: {
     extend: {},
+    backgroundPosition: {
+      'bottom-md': 'right 10rem bottom 0.5rem',
+    },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
       Martian: ["Martian Mono", "monospace"]
     },
     backgroundSize: {
-      "25%": "50%"
+      "50%": "50%",
+      "25%": "30%"
     },
     colors: {
       neutral: {
