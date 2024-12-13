@@ -618,6 +618,10 @@ video {
   flex: 2;
 }
 
+.flex-\[1\.5\] {
+  flex: 1.5;
+}
+
 .grow {
   flex-grow: 1;
 }
