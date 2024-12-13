@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     backgroundPosition: {
       'bottom-md': 'right 10rem bottom 0.1rem',
+      'bottom-lg': "right 11.5rem bottom 0.1rem",
       "left-bottom": "left bottom"
     },
     fontFamily: {
