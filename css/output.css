@@ -618,6 +618,10 @@ video {
   flex: 1.5;
 }
 
+.flex-grow-\[0\.8\] {
+  flex-grow: 0.8;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -640,6 +644,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-start {
