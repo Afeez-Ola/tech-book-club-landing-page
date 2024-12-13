@@ -706,6 +706,10 @@ video {
   align-self: flex-start;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -1037,6 +1041,14 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:flex-grow-\[0\.8\] {
+    flex-grow: 0.8;
+  }
+
+  .lg\:flex-grow-\[1\] {
+    flex-grow: 1;
   }
 
   .lg\:flex-row {
