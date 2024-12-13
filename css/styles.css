@@ -15,4 +15,8 @@
   .word-spacing {
     word-spacing: 7px;
   }
+
+  .letter-spacing {
+    word-spacing: 4px;
+  }
 }

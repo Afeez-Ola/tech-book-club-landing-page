@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     backgroundPosition: {
-      'bottom-md': 'right 10rem bottom 0.5rem',
+      'bottom-md': 'right 10rem bottom 0.1rem',
+      "left-bottom": "left bottom"
     },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
