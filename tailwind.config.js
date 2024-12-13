@@ -17,6 +17,7 @@ module.exports = {
         default: "#E6E1DF",
         light: "#FAF5F3"
       },
+      white: "#FFFFFF",
       transparent: 'transparent',
       salmon: {
         dark: "#FEA36F",

@@ -578,10 +578,6 @@ video {
   display: none;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
 .h-1 {
   height: 0.25rem;
 }
@@ -616,6 +612,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-10 {
@@ -662,14 +666,19 @@ video {
   border-width: 4px;
 }
 
+.border-neutral-light {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 245 243 / var(--tw-border-opacity, 1));
+}
+
 .border-neutral-verydark {
   --tw-border-opacity: 1;
   border-color: rgb(6 38 48 / var(--tw-border-opacity, 1));
 }
 
-.border-neutral-light {
+.border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(250 245 243 / var(--tw-border-opacity, 1));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-neutral-verydark {
@@ -697,27 +706,22 @@ video {
   padding: 1.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -730,6 +734,11 @@ video {
 
 .font-Martian {
   font-family: Martian Mono, monospace;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -750,16 +759,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -791,11 +790,6 @@ video {
   color: rgb(56 81 89 / var(--tw-text-opacity, 1));
 }
 
-.text-neutral-verydark {
-  --tw-text-opacity: 1;
-  color: rgb(6 38 48 / var(--tw-text-opacity, 1));
-}
-
 .text-neutral-default {
   --tw-text-opacity: 1;
   color: rgb(230 225 223 / var(--tw-text-opacity, 1));
@@ -804,6 +798,16 @@ video {
 .text-neutral-light {
   --tw-text-opacity: 1;
   color: rgb(250 245 243 / var(--tw-text-opacity, 1));
+}
+
+.text-neutral-verydark {
+  --tw-text-opacity: 1;
+  color: rgb(6 38 48 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .hero-gradient {
