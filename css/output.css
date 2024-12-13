@@ -690,6 +690,10 @@ video {
   gap: 2rem;
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -734,6 +738,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.bg-salmon-default {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 245 239 / var(--tw-bg-opacity, 1));
+}
+
 .bg-patternCircle {
   background-image: url('/assets/images/pattern-circle.png');
 }
@@ -744,10 +753,6 @@ video {
 
 .bg-left-bottom {
   background-position: left bottom;
-}
-
-.bg-right-bottom {
-  background-position: right bottom;
 }
 
 .bg-no-repeat {

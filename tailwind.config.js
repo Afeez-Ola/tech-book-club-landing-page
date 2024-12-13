@@ -41,7 +41,11 @@ module.exports = {
       patternCircle: "url('/assets/images/pattern-circle.png')"
     },
     backgroundColor: {
-      light: "#FAF5F3"
+      light: "#FAF5F3",
+      salmon: {
+        dark: "#FEA36F",
+        default: "#FFF5EF"
+      },
     }
   },
   plugins: [],
