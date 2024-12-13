@@ -672,6 +672,11 @@ video {
   border-color: rgb(250 245 243 / var(--tw-border-opacity, 1));
 }
 
+.bg-neutral-verydark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 38 48 / var(--tw-bg-opacity, 1));
+}
+
 .bg-patternCircle {
   background-image: url('/assets/images/pattern-circle.png');
 }
@@ -702,8 +707,17 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-center {
