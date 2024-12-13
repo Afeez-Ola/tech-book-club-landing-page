@@ -37,12 +37,11 @@ module.exports = {
     },
     backgroundImage: {
       dark: "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
-      
       glow: "url('/assets/images/pattern-glow.svg')",
       patternCircle: "url('/assets/images/pattern-circle.png')"
     },
     backgroundColor: {
-      
+      light: "#FAF5F3"
     }
   },
   plugins: [],
