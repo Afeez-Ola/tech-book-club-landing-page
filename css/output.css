@@ -756,6 +756,10 @@ video {
   background-position: left bottom;
 }
 
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1024,8 +1028,8 @@ video {
     width: 30%;
   }
 
-  .lg\:w-\[32\%\] {
-    width: 32%;
+  .lg\:w-\[31\%\] {
+    width: 31%;
   }
 
   .lg\:w-auto {
