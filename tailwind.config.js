@@ -46,6 +46,12 @@ module.exports = {
         dark: "#FEA36F",
         default: "#FFF5EF"
       },
+      neutral: {
+        verydark: "#062630",
+        dark: "#385159",
+        default: "#E6E1DF",
+        light: "#FAF5F3"
+      },
     }
   },
   plugins: [],
