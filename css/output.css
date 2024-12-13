@@ -622,6 +622,10 @@ video {
   flex-grow: 0.8;
 }
 
+.flex-grow-\[1\] {
+  flex-grow: 1;
+}
+
 .grow {
   flex-grow: 1;
 }
