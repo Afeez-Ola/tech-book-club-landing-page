@@ -976,6 +976,12 @@ video {
   word-spacing: 4px;
 }
 
+@media (min-width: 640px) {
+  .sm\:w-11\/12 {
+    width: 91.666667%;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:m-auto {
     margin: auto;
