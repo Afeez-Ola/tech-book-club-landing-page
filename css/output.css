@@ -1149,6 +1149,70 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-\[98rem\] {
+    top: 98rem;
+  }
+
+  .lg\:right-\[35rem\] {
+    right: 35rem;
+  }
+
+  .lg\:right-\[45rem\] {
+    right: 45rem;
+  }
+
+  .lg\:right-\[38rem\] {
+    right: 38rem;
+  }
+
+  .lg\:right-\[10rem\] {
+    right: 10rem;
+  }
+
+  .lg\:right-\[15rem\] {
+    right: 15rem;
+  }
+
+  .lg\:right-\[25rem\] {
+    right: 25rem;
+  }
+
+  .lg\:right-\[39rem\] {
+    right: 39rem;
+  }
+
+  .lg\:right-\[3rem\] {
+    right: 3rem;
+  }
+
+  .lg\:right-\[40rem\] {
+    right: 40rem;
+  }
+
+  .lg\:right-\[48rem\] {
+    right: 48rem;
+  }
+
+  .lg\:right-\[47rem\] {
+    right: 47rem;
+  }
+
+  .lg\:top-\[105rem\] {
+    top: 105rem;
+  }
+
+  .lg\:top-\[125rem\] {
+    top: 125rem;
+  }
+
+  .lg\:top-\[115rem\] {
+    top: 115rem;
+  }
+
+  .lg\:top-\[110rem\] {
+    top: 110rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
