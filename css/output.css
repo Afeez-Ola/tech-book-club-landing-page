@@ -816,6 +816,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1086,6 +1090,10 @@ video {
     width: 60%;
   }
 
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .lg\:flex-grow-\[0\.8\] {
     flex-grow: 0.8;
   }
@@ -1125,6 +1133,13 @@ video {
   .lg\:bg-light {
     --tw-bg-opacity: 1;
     background-color: rgb(250 245 243 / var(--tw-bg-opacity, 1));
+  }
+
+  @media (min-width: 1024px) {
+    .lg\:lg\:bg-light {
+      --tw-bg-opacity: 1;
+      background-color: rgb(250 245 243 / var(--tw-bg-opacity, 1));
+    }
   }
 
   .lg\:bg-glow {
