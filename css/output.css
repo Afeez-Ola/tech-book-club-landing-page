@@ -610,6 +610,22 @@ video {
   width: 100%;
 }
 
+.w-\[33\.3\%\] {
+  width: 33.3%;
+}
+
+.w-\[34\%\] {
+  width: 34%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -704,6 +720,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-t-xl {
