@@ -1035,6 +1035,14 @@ video {
     top: 98rem;
   }
 
+  .md\:right-\[3rem\] {
+    right: 3rem;
+  }
+
+  .md\:top-\[212rem\] {
+    top: 212rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
