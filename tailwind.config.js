@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     backgroundPosition: {
-      'bottom-md': 'right 10rem bottom 0.1rem',
+      'bottom-md': 'right 12rem bottom 0rem',
       'bottom-lg': "right 8.5rem bottom 0.4rem",
       "left-bottom": "left bottom",
       "right-bottom": "right bottom",
