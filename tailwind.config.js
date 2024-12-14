@@ -8,6 +8,7 @@ module.exports = {
       'bottom-lg': "right 11.5rem bottom 0.1rem",
       "left-bottom": "left bottom",
       "right-bottom": "right bottom",
+      "right-top": "right top",
     },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
