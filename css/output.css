@@ -626,6 +626,14 @@ video {
   width: 40%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -896,6 +904,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -976,6 +989,12 @@ video {
   word-spacing: 4px;
 }
 
+@media not all and (min-width: 640px) {
+  .max-sm\:w-1\/2 {
+    width: 50%;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:w-11\/12 {
     width: 91.666667%;
@@ -1047,6 +1066,11 @@ video {
 
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
