@@ -594,6 +594,11 @@ video {
   height: auto;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
