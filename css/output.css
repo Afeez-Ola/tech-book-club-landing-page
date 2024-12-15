@@ -1198,6 +1198,18 @@ video {
     width: 66.666667%;
   }
 
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[95\] {
+    width: 95;
+  }
+
+  .lg\:w-\[95\%\] {
+    width: 95%;
+  }
+
   .lg\:flex-grow-\[0\.8\] {
     flex-grow: 0.8;
   }
