@@ -1265,4 +1265,12 @@ video {
   .lg\:tracking-\[-1px\] {
     letter-spacing: -1px;
   }
+
+  .lg\:hover\:outline:hover {
+    outline-style: solid;
+  }
+
+  .lg\:hover\:outline-2:hover {
+    outline-width: 2px;
+  }
 }
