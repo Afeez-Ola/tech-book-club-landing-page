@@ -1125,6 +1125,18 @@ video {
     top: 95rem;
   }
 
+  .lg\:top-\[92rem\] {
+    top: 92rem;
+  }
+
+  .lg\:right-\[36rem\] {
+    right: 36rem;
+  }
+
+  .lg\:right-\[34rem\] {
+    right: 34rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
