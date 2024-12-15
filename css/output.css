@@ -1081,12 +1081,12 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:right-\[47rem\] {
-    right: 47rem;
+  .lg\:right-\[33rem\] {
+    right: 33rem;
   }
 
-  .lg\:top-\[110rem\] {
-    top: 110rem;
+  .lg\:top-\[100rem\] {
+    top: 100rem;
   }
 
   .lg\:m-auto {
@@ -1116,10 +1116,6 @@ video {
 
   .lg\:w-11\/12 {
     width: 91.666667%;
-  }
-
-  .lg\:w-3\/4 {
-    width: 75%;
   }
 
   .lg\:w-3\/5 {
@@ -1188,7 +1184,7 @@ video {
   }
 
   .lg\:bg-bottom-lg {
-    background-position: right 10.5rem bottom 0.4rem;
+    background-position: right 15rem bottom 0.2rem;
   }
 
   .lg\:bg-no-repeat {
