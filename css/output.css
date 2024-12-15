@@ -1273,4 +1273,8 @@ video {
   .lg\:hover\:outline-2:hover {
     outline-width: 2px;
   }
+
+  .lg\:hover\:outline-neutral-verydark:hover {
+    outline-color: #062630;
+  }
 }
